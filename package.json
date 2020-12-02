@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "scripts": "cypress run --browser chrome"
+    "scripts": "cypress run --browser chrome",
+    "repeat": "cypress-repeat run -n 5 --browser chrome --spec cypress/integration/testArredoUy.js"
   },
   "dependencies": {
     "aws-sdk": "^2.800.0",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "cypress-multi-reporters": "^1.4.0",
+    "cypress-repeat": "2.2.1",
     "mocha": "^8.2.1",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",

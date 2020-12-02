@@ -122,9 +122,9 @@ context("Arredo Uy", () => {
     });
   });
   describe("Home", () => {
-    it("Aparece caja de registro", () => {
+    it.only("Aparece caja de registro", () => {
       cy.visit("https://www.arredo.com.uy/");
-      cy.wait(10000);
+      // cy.wait(10000);
       cy.get("#braindw_register");
     });
     it("Gondola con imagen a la izquierda", () => {
