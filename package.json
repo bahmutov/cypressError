@@ -1,7 +1,7 @@
 {
   "scripts": {
     "scripts": "cypress run --browser chrome",
-    "repeat": "cypress-repeat run -n 5 --browser chrome --spec cypress/integration/testArredoUy.js"
+    "repeat": "cypress-repeat run -n 5 --browser chrome"
   },
   "dependencies": {
     "aws-sdk": "^2.800.0",
